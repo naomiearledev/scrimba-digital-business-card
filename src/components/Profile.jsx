@@ -8,8 +8,8 @@ export default function Profile() {
       <p>Frontend Developer</p>
       <span>naomiearle.website</span>
       <div className="profile_buttons">
-        <Button linkSrc="https://google.com" color="white" text="Email" icon="email" />
-        <Button linkSrc="https://linkedin.com" color="blue" text="LinkedIn" icon="linkedin" />
+        <Button type="email" text="Email" />
+        <Button type="linkedin" text="LinkedIn" />
       </div>
     </div>
   )

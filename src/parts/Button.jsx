@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types'
 import '../assets/css/Button.css'
 
-export default function Button({ linkSrc, color, text, icon }) {
-  const className = `button button-${color}`
+export default function Button({ type, text }) {
+  const href = type === 'email' ? "https://google.com" : "https://linkedin.com"
+  const className = `button button-${type === 'email' ? 'white' : 'blue'}`
+  const icon = type === 'email' ? "fa-solid fa-envelope" : "fa-brands fa-linkedin"
   
   return (
-    <a className="button_link" href={linkSrc}>
+    <a className="button_link" href={href}>
       <div className={className}>
-        <i className={icon === 'email' ? "fa-solid fa-envelope" : "fa-brands fa-linkedin"}></i>
+        <i className={icon}></i>
         <p>{text}</p>
       </div>
     </a>
@@ -15,8 +17,6 @@ export default function Button({ linkSrc, color, text, icon }) {
 }
 
 Button.propTypes = {
-  linkSrc: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
+  type: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
