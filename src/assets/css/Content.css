@@ -1,5 +1,5 @@
 .content {
-  margin-top: 33px;
+  margin-top: 1rem;
 }
 
 .content_section {
@@ -16,4 +16,12 @@
   color: #DCDCDC;
   font-size: 12px;
   line-height: 150%;
+}
+
+.content_toggle-button {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: #DCDCDC;
+  margin-bottom: 10px;
 }

@@ -1,13 +1,9 @@
-.app {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
   background-color: #393C47;
 }
 
 .business-card {
+  margin: 3rem auto;
   border-radius: 11px;
   width: 317px;
   background-color: #1A1B21;
