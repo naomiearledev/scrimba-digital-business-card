@@ -1,0 +1,32 @@
+.button_link {
+  text-decoration: none;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button-white {
+  background-color: #FFFFFF;
+  color: #374151;
+}
+
+.button-blue {
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.button > p {
+  margin-left: 0.5rem;
+}
+
+.button > img {
+  height: auto;
+}

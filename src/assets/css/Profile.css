@@ -1,0 +1,18 @@
+.profile {
+  text-align: center;
+}
+
+.profile > h1 {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.profile > p {
+  color: #F3BF99;
+  font-size: 12px;
+}
+
+.profile > span {
+  color: #F5F5F5;
+  font-size: 10px;
+}

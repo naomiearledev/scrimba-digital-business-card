@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types'
-import emailIcon from '../assets/email.png'
-import linkedinIcon from '../assets/linkedin.png'
+import '../assets/css/Button.css'
 
 export default function Button({ linkSrc, color, text, icon }) {
   const className = `button button-${color}`
   
   return (
-    <a className={className} href={linkSrc}>
-      <img src={icon === 'email' ? emailIcon : linkedinIcon} />
-      <p>{text}</p>
+    <a className="button_link" href={linkSrc}>
+      <div className={className}>
+        <i className={icon === 'email' ? "fa-solid fa-envelope" : "fa-brands fa-linkedin"}></i>
+        <p>{text}</p>
+      </div>
     </a>
   )
 }

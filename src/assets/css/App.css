@@ -1,0 +1,26 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252C;
+}
+
+.business-card {
+  border-radius: 11px;
+  width: 317px;
+  background-color: #1A1B21;
+  box-shadow: 0 0 76px 0 rgba(0,0,0,0.41);
+  -webkit-box-shadow: -1px 3px 76px -1px rgba(0,0,0,0.41);
+  -moz-box-shadow: -1px 3px 76px -1px rgba(0,0,0,0.41);
+}
+
+.business-card > img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.business-card_main {
+  padding: 21px 35px;
+}
