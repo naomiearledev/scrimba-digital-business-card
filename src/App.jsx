@@ -12,8 +12,8 @@ function App() {
         <div className="business-card_main">
           <Profile />
           <Content />
-          <LogoFooter />
         </div>
+        <LogoFooter />
       </div>
     </div>
   )

@@ -1,0 +1,13 @@
+.footer {
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #918E9B;
+  display: inline-block;
+}
