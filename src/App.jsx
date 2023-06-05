@@ -4,12 +4,13 @@ import Content from './components/Content'
 import LogoFooter from './components/LogoFooter'
 
 function App() {
-  
   return (
-    <div className="business-card">
-      <Profile />
-      <Content />
-      <LogoFooter />
+    <div className="app">
+      <div className="business-card">
+        <Profile />
+        <Content />
+        <LogoFooter />
+      </div>
     </div>
   )
 }
