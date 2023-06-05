@@ -7,3 +7,4 @@ Notes:
 
 Things to do next:
 1. Light/dark mode
+2. Transitions for show/hide
