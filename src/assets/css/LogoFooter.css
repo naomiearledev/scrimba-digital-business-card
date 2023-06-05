@@ -1,9 +1,9 @@
 .footer {
   background-color: #161619;
   border-radius: 0 0 10px 10px;
-  padding: 24px;
+  padding: 24px 72px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer > a {
