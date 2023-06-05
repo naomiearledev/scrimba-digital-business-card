@@ -1,11 +1,11 @@
 import ContentSection from "../parts/ContentSection"
+import "../assets/css/Content.css"
 
 export default function Content() {
   return (
     <div className="content">
-      <h1>Content</h1>
-      <ContentSection />
-      <ContentSection />
+      <ContentSection type="about" />
+      <ContentSection type="interests" />
     </div>
   )
 }

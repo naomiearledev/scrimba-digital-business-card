@@ -1,0 +1,19 @@
+.content {
+  margin-top: 33px;
+}
+
+.content_section {
+  margin-bottom: 18px;
+}
+
+.content_section > h2 {
+  color: #F5F5F5;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.content_section > p {
+  color: #DCDCDC;
+  font-size: 12px;
+  line-height: 150%;
+}
